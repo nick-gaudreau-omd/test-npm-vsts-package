@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "build/dist",
-    "module": "esnext",
+    "outDir": "lib",
+    "module": "commonjs",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom",
+      "es2015.collection",
+      "es2015.promise"
+    ],
     "sourceMap": true,
+    "declaration": true,
     "jsx": "react",
     "moduleResolution": "node",
     "rootDir": "src",

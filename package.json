@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {},
-  "scripts": {},
+  "scripts": {
+    "prepare": "IF EXIST \"%CD%\\lib\\\" (rmdir /s /q lib && tsc) ELSE (tsc)"
+  },
   "devDependencies": {
     "typescript": "^2.9.2"
   }
