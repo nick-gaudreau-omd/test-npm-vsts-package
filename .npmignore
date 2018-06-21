@@ -1,0 +1,13 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+#src
+/src
+
+#test file
+test.js
+
+#config
+tsconfig.json
+
+#lint
+tslint.json
