@@ -1,0 +1,10 @@
+{
+  "name": "test-npm-vsts-package",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
