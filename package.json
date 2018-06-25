@@ -1,6 +1,6 @@
 {
   "name": "test-npm-vsts-package",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {},
   "scripts": {
     "prepare": "IF EXIST \"%CD%\\lib\\\" (rmdir /s /q lib && tsc) ELSE (tsc)"
